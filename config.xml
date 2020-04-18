@@ -5,9 +5,9 @@
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
         id          = "com.uamoto.app"
         versionCode = "10"
-        version     = "1.0.0">
+        version     = "1.1.0">
 
-    <name>ТЕСТ. UAMOTO</name>
+    <name>UAMOTO</name>
 
     <description>
         Додаток для смартфонів.
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#007BFF" />
+    <preference name="SplashScreenSpinnerColor" value="#FFFFFF" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
@@ -47,10 +47,10 @@
         <icon src="res/android/icon/e783cda06e1c07fc89141255a46b2b28.png" density="xxhdpi" />
         <icon src="res/android/icon/673b831faf0ac7f692b8b622b4098036.png" density="xxxhdpi" />
 
-        <splash src="res/android/screen/b1e59e017ebf138c26ddae70a5602d44.png" density="port-hdpi"/>
-        <splash src="res/android/screen/2811d2d46e9edb514acbd3717268b0a6.png" density="port-ldpi"/>
-        <splash src="res/android/screen/1b5fe5f77b686d3a4cb7952d6b5c3a07.png" density="port-mdpi"/>
-        <splash src="res/android/screen/e7b15d4b2bac431e56e3d9398ee3fbac.png" density="port-xhdpi"/>
+        <splash src="res/android/screen/3618e2bd59f3bd0d50f340573b4f5f5e.png" density="port-hdpi"/>
+        <splash src="res/android/screen/bb1d910859989668dfa280ea89e20e5e.png" density="port-ldpi"/>
+        <splash src="res/android/screen/6b0559f1405cd5003e56fafa90180b27.png" density="port-mdpi"/>
+        <splash src="res/android/screen/8b229f33818002d9b30d50381d5eee52.png" density="port-xhdpi"/>
     </platform>
 
     <platform name="ios">
@@ -69,12 +69,12 @@
         <icon src="res/ios/icon/8556e15c32d9dd88a3824ad580279be2.png" width="87" height="87" />
         <icon src="res/ios/icon/a6454c7c289a6cb3694f24449e493b37.png" width="167" height="167" />
 
-        <splash src="res/ios/screen/f98806144566798dc2c210161eb63657.png" />
-        <splash src="res/ios/screen/c5f568b858f51bdadf56b602ab782806.png" />
-        <splash src="res/ios/screen/71df33649b9cf6ba4daeafb931a9b72e.png" />
-        <splash src="res/ios/screen/a6f5cf35b7db100150cebcf72cd19215.png" />
-        <splash src="res/ios/screen/34ace9ab3a65d659965934fbd9434247.png" />
-        <splash src="res/ios/screen/34f33131331aceae58094db8bcb3451f.png" />
+        <splash src="res/ios/screen/605fc6f6c6befee266ac30ad2937f292.png" />
+        <splash src="res/ios/screen/6da4266e8c5f295dae715739b4748ae6.png" />
+        <splash src="res/ios/screen/0e843cb613fa80e67124e4c70ab48f37.png" />
+        <splash src="res/ios/screen/148ef8dc0c9640f09abb60e38e611af5.png" />
+        <splash src="res/ios/screen/098479e0f09a24398b7da679982e7bf9.png" />
+        <splash src="res/ios/screen/f183005fbe43203ce9ee6fd1855da2f7.png" />
     </platform>
 
     <platform name="winphone">
@@ -86,8 +86,8 @@
         <icon src="res/windows/icon/5c0bce58a68149693dd9c60bf958783b.png" target="Square150x150Logo" />
         <icon src="res/windows/icon/e61c12227ae41e36dc6910ca164829ee.png" target="Square310x310Logo" />
 
-        <splash src="res/windows/screen/c5289862c3488cbbea602f407637523d.png" target="SplashScreen"/>
-        <splash src="res/windows/screen/4bd0365d47146aafdca8c89c179d4eb8.png" target="SplashScreenPhone"/>
+        <splash src="res/windows/screen/0afe5941184ab4fba8817e00df2a4232.png" target="SplashScreen"/>
+        <splash src="res/windows/screen/10f84cbd18e69457acf6d2dc1c700874.png" target="SplashScreenPhone"/>
     </platform>
 
     <access origin='*'/>
